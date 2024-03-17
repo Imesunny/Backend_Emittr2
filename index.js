@@ -10,7 +10,7 @@ app.use(express.json());
 
 
 app.get('/', (req, res) => {
-    res.json({message: "Hey, you are on the Home Page!"})
+    res.json({message: "Hey, you are on the HomePage!"})
 })
 
 app.post('/api/user', async(req, res)=>{
